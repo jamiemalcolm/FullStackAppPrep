@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-18T16:43:59.010Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="tZzzDFgY_HAA4RmNI5Jd" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-18T17:01:37.495Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="BTPrHKYHZVQ6WVPmF1MO" version="14.1.8" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="824" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1985" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,10 +8,99 @@
           <mxGeometry x="650" y="215" width="200" height="250" as="geometry" />
         </mxCell>
         <mxCell id="xFcipHrpXTBvj7MSluPy-2" value="CLIENT" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="20" y="240" width="200" height="200" as="geometry" />
+          <mxGeometry x="-140" y="220" width="360" height="220" as="geometry" />
         </mxCell>
         <mxCell id="xFcipHrpXTBvj7MSluPy-3" value="SERVER" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
           <mxGeometry x="370" y="215" width="150" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="xFcipHrpXTBvj7MSluPy-5" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=35;endSize=11.79;entryX=0.067;entryY=0.188;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xFcipHrpXTBvj7MSluPy-8" target="xFcipHrpXTBvj7MSluPy-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="320" as="sourcePoint" />
+            <mxPoint x="270" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="240" />
+              <mxPoint x="290" y="250" />
+              <mxPoint x="320" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xFcipHrpXTBvj7MSluPy-6" value="Server makes request on post method takes the inputs values and makes a new document in the database matching" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="140" width="270" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="xFcipHrpXTBvj7MSluPy-8" value="game form.vue" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="270" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xFcipHrpXTBvj7MSluPy-9" value="inputs from game form" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="250" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xFcipHrpXTBvj7MSluPy-10" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=35;endSize=11.79;entryX=0.067;entryY=0.188;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="250" as="sourcePoint" />
+            <mxPoint x="737.55" y="240.12" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="587.5" y="220" />
+              <mxPoint x="677.5" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xFcipHrpXTBvj7MSluPy-11" value="create_router.js" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="215" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xFcipHrpXTBvj7MSluPy-12" value="delete button (gamecard.vue)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="380" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xFcipHrpXTBvj7MSluPy-13" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=35;endSize=11.79;" edge="1" parent="1" source="xFcipHrpXTBvj7MSluPy-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="350" as="sourcePoint" />
+            <mxPoint x="410" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="450" />
+              <mxPoint x="410" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xFcipHrpXTBvj7MSluPy-14" value="server requests the database for a game with matching id, if it exists it deletes it" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="490" width="440" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xFcipHrpXTBvj7MSluPy-15" value="eventBus passes id of game to the&amp;nbsp; gamesGrid.vue&lt;br&gt;which passees it to create router.js" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="450" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xFcipHrpXTBvj7MSluPy-16" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=35;endSize=11.79;entryX=0.067;entryY=0.188;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="502.45000000000005" y="440" as="sourcePoint" />
+            <mxPoint x="750" y="430.12" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="480" />
+              <mxPoint x="700" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xFcipHrpXTBvj7MSluPy-17" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=35;endSize=11.79;" edge="1" parent="1" target="xFcipHrpXTBvj7MSluPy-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="265" as="sourcePoint" />
+            <mxPoint x="927.55" y="255.12" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xFcipHrpXTBvj7MSluPy-18" value="database responds to server with new document" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="350" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xFcipHrpXTBvj7MSluPy-19" value="server creates new game card of new document in the db" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="300" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xFcipHrpXTBvj7MSluPy-21" value="new gamecard created and added to game grid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-85" y="340" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xFcipHrpXTBvj7MSluPy-20" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=35;endSize=11.79;" edge="1" parent="1" source="xFcipHrpXTBvj7MSluPy-19" target="xFcipHrpXTBvj7MSluPy-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="250" as="sourcePoint" />
+            <mxPoint x="-30" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="320" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
